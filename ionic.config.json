@@ -1,0 +1,7 @@
+{
+  "name": "FiapFase05",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
