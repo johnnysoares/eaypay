@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title size="small">Início</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-grid class="account-info">
+        <ion-row>
+            <ion-col size="9" style="padding: 15px 0 0 10px;">
+                <ion-label color="light">Saldo em Conta</ion-label><br />
+                <ion-label color="light"><strong>R$ 999,30</strong></ion-label>
+            </ion-col>
+            <ion-col size="3">
+                <ion-icon
+                    style="font-size: 64px;"
+                    color="light"
+                    name="person-circle-outline"
+                ></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-card>
+        <ion-card-header color="secondary">
+            <ion-card-subtitle>Nova confirmação de compra</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list>
+                <ion-item lines="none">
+                    <ion-label>
+                        <p>Data e Hora: 01/04/2020 10:17</p>
+                        <p>Estabelecimento: Carrefour</p>
+                        <p>Endereço: Avenida Salim Farah Maluf, 10562</p>
+                        <p>Valor: R$ 255,00</p>
+                    </ion-label>
+                </ion-item>
+			</ion-list>
+			<ion-row>
+				<ion-col>
+					<ion-button color="danger">Recusar</ion-button>
+				</ion-col>
+				<ion-col>
+					<ion-button color="success">Autorizar</ion-button>
+				</ion-col>
+			</ion-row>
+		</ion-card-content>
+    </ion-card>
+</ion-content>
